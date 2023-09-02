@@ -7,7 +7,7 @@ import smtplib
 
 def sendmail(too, hash):
     gmail_user = 'torrleechs@gmail.com'
-    gmail_password = 'aztdvpeskpaclseo'
+    gmail_password = ''
     sent_from = gmail_user
     to = too
     subject = 'Mail to verify!'
@@ -31,7 +31,7 @@ Subject: %s
 
 
 client = MongoClient(
-    'mongodb+srv://satya:s4tya@cluster0.rrqhs.mongodb.net/utyfky?retryWrites=true&w=majority'
+    'mongodb+srv://user:pass@clusterX.xxxx.mongodb.net/dbname?retryWrites=true&w=majority'
 )
 db = client.Apk
 collection = db.user
