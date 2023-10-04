@@ -28,6 +28,12 @@ def verify():
     except Exception as e:
         print(e)
         return {'status': 'Error!, Contact admin'}
+    
+@app.route('/send')
+def send():
+    return {
+        "this is a test":"test"
+    }
         
 app.run(host='0.0.0.0', port=81)
 
